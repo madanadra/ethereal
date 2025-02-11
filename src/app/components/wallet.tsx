@@ -40,7 +40,8 @@ export const Wallet = () => {
               {account.displayBalance ? <span className='text-xs font-semibold text-zinc-700 ml-2'>{account.displayBalance}</span> : ''}
             </button>
             {chain.hasIcon && chain.iconUrl ?
-              <Image onClick={openChainModal} src={chain.iconUrl} alt={chain.name ?? 'Chain'} width={20} height={20} className='cursor-pointer' /> :
+              <Image onClick={openChainModal} src={chain.iconUrl} alt={chain.name ?? 'Chain'} loading="lazy" width={20} height={20} 
+              className='cursor-pointer' /> :
               <PiLink onClick={openChainModal} className="text-xl cursor-pointer" />
             }
           </div>            

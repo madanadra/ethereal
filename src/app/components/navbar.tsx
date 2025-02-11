@@ -26,7 +26,8 @@ export default function Navbar() {
 
         return (<>
             {data.map((item, i) => 
-                <Link key={i} href={item.link} className="font-medium cursor-pointer">{item.name}</Link>
+                <Link key={i} href={item.link} onClick={() => setShow(false)} 
+                className="font-medium cursor-pointer">{item.name}</Link>
             )}
             <Wallet />
         </>)
@@ -36,7 +37,8 @@ export default function Navbar() {
         return (
             <div onClick={() => setShow(false)} 
             className={`${show ? 'md:hidden' : 'hidden'} p-6 sm:px-12 fixed inset-0 top-16 backdrop-blur-xs z-30`}>
-                <div onClick={(e) => e.stopPropagation()} className="grid gap-y-4 p-6 border border-zinc-950 bg-zinc-100 rounded-md animate-modal">
+                <div onClick={(e) => e.stopPropagation()} 
+                className="grid gap-y-4 p-6 border border-zinc-950 bg-zinc-100 rounded-md animate-modal">
                     <Menu />
                 </div>
             </div>

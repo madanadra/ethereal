@@ -6,7 +6,7 @@ export default function Cta() {
             <a className="absolute -top-16 invisible" id="explore" />
             <div className="overflow-hidden rounded-full">
                 <div className="relative aspect-video md:aspect-square scale-150">
-                    <Image src='square.svg' alt='Square' fill className="object-cover object-center" />
+                    <Image src='square.svg' alt='Square' loading="lazy" fill className="object-cover object-center" />
                 </div>
             </div>
             <div className="grid gap-y-6">

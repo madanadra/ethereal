@@ -98,7 +98,9 @@ export default function Footer() {
                     )}
                 </div>
                 <div className="grid md:grid-cols-2 items-center gap-4">
-                    <Link href='#home' className="font-bold text-3xl italic cursor-pointer md:text-right md:order-2">Ethereal.</Link>
+                    <Link href='#home' className="font-bold text-3xl italic cursor-pointer md:text-right md:order-2">
+                        Ethereal.
+                    </Link>
                     <h1 className="text-sm text-zinc-700">
                         &copy; {new Date().getFullYear()} Ethereal by Madanadra. All rights reserved.
                     </h1>

@@ -37,7 +37,7 @@ export default function Features() {
                     <div key={i} className="grid content-start gap-y-4 rounded-md bg-zinc-100 border border-zinc-950 p-6 
                     relative animate-card overflow-hidden cursor-pointer">
                         <div className="grid justify-items-center text-center gap-y-6">
-                            <Image src={item.img} alt={item.title} width={100} height={100} />
+                            <Image src={item.img} alt={item.title} loading="lazy" width={100} height={100} />
                             <h1 className="text-xl font-semibold tracking-tighter uppercase">{item.title}</h1>
                         </div>
                         <p className="text-sm text-center font-medium">{item.sub}</p>
