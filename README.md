@@ -1,8 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Ethereal
 
-## Getting Started
+This is a sleek, futuristic Web3 project with [Next JS](https://nextjs.org), [React](https://react.dev), 
+[TypeScript](https://www.typescriptlang.org) and [Tailwind CSS](https://tailwindcss.com).
 
-First, run the development server:
+## Setup Instructions
+
+There is no special setup, just make sure all environments are up to standard (for example the Node JS version).
+The rest is the same as usual.
+
+First, install all dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+wait until it's finished, then run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +32,15 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For Lighthouse reports, it's in the root directory with the name lighthouse-report.html
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Design Decisions
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Clean and neat design with ample whitespace and lines as clear boundaries. Gives a minimalist impression.
+Thanks to [godly.website](https://godly.website) and [minimal.gallery](https://minimal.gallery) for some inspiration.
 
-## Learn More
+## Challenges Faced
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Web3 is new to me. I researched related topics such as Blockchain, NFT, Ethereum and DeFi to understand Web3 more deeply.
+For wallet connection, i use [RainbowKit](https://www.rainbowkit.com).
+Thanks to [ChatGPT](https://chatgpt.com) for some suggestions of slogans and paragraphs regarding Web3 content.
