@@ -10,7 +10,7 @@ export default function Hero() {
             <p className="text-lg font-medium text-zinc-700 md:w-1/2">
                 Unlock a world of possibilities with true ownership and transparent provenance, all secured on the blockchain.
             </p>
-            <Link href='#features'>
+            <Link href='#features' className="w-max">
                 <button className="border border-zinc-950 hover:bg-zinc-100 font-bold cursor-pointer py-3 px-4 rounded-full mt-2 w-max">
                     Get Started
                 </button>

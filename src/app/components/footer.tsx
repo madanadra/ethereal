@@ -90,7 +90,7 @@ export default function Footer() {
                         <div key={i} className="grid gap-y-2">
                             <h1 className="text-sm font-semibold">{item.title}</h1>
                             {item.sub.map((sub, i) => 
-                                <Link key={i} href={sub.link}>
+                                <Link key={i} href={sub.link} className="w-max">
                                     <h1 className="text-sm hover:underline cursor-pointer w-max">{sub.name}</h1>
                                 </Link>
                             )}
